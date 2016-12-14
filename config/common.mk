@@ -103,6 +103,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
 
+# Brevent
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/Brevent/Brevent.apk:system/app/Brevent/Brevent.apk
+
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
